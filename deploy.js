@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
-  'cook vacuum ostrich loop exhibit empower churn present split fit usual else',
-  'https://rinkeby.infura.io/b1sGhqMuxCY6ytaAAYuP'
+  '@@@', //@@@ -> fill your acount mnemonic
+  '@@@'  //@@@ -> point to Test network . get link from infura
 );
 
 const web3 = new Web3(provider);
